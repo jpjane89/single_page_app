@@ -23,6 +23,7 @@ app.config(function($routeProvider) {
 
 app.controller('HomeController', function($scope) {
   $scope.message = 'Hello from HomeController';
+  $scope.hellos = ['hi', 'hello','howdy'];
 });
 
 app.controller('BlogController', function($scope) {
